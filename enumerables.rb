@@ -9,11 +9,16 @@ def spicy_foods
   ]
 end
 
+
 # given an array of spicy foods, **return an array of strings**
 # with the names of each spicy food
 def get_names(spicy_foods)
   # your code here
+  spicy_foods.each do |spice|
+      print spice.name
+  end
 end
+
 
 # given an array of spicy foods, **return an array of hashes** 
 # where the heat level of the food is greater than 5
